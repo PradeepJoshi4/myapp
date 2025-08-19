@@ -15,4 +15,6 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/activity", activityRoutes);
 
-app.listen(5000, () => console.log("🚀 Server running at http://localhost:5000"));
+
+
+export default app;
